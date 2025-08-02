@@ -18,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "run-rasa": "cd rasa && rasa run --enable-api --cors \"*\"",
+    "run-rasa:debug": "cd rasa && rasa run --debug --log-file log.txt --enable-api --cors \"*\""
   },
   "eslintConfig": {
     "extends": [
